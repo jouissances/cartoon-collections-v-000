@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(array)
   array.find { |call|
-    if call.length > 4 
+    if call.size > 4 
       return true 
     else 
       return false
